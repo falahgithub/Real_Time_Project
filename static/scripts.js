@@ -19,16 +19,6 @@ async function sortfunc() {
 });
 }
 
-// async function filterfunc() {
-//     var formData = new FormData(document.getElementById("filter-form"));
-//     var formdata = {};
-//         formData.forEach(function(value, key) {
-//                     formdata[key] = value;
-//                     });
-//         // console.log(formdata);
-//         entered_city = formdata["entered_city"];
-//         console.log(entered_city);
-// }
 
 
 window.addEventListener("load", load_and_change);
@@ -42,8 +32,6 @@ async function load_and_change() {
     function nextstep(){
         console.log(sortaccording)
         console.log(entered_city)
-
-        // var filter = ""
 
         const additional_data = {
             "sortacc": sortaccording,
@@ -87,28 +75,9 @@ async function insertTableData(data) {
 }
 
 
-// ////////////////////////////////////////////////////////////
-
-
-// var formm = document.getElementById('filter-form');
-
-// formm.addEventListener('submit', function (event) {
-//     event.preventDefault(); // Prevent the form from actually submitting
-
-//     // Clear the form fields
-//     formm.reset();
-// })
 
 async function filterfunc() {
-    // var formData = new FormData(document.getElementById("filter-form"));
-
     data = document.getElementById("filter-input");
-    // console.log(data.value);
-    // var formdata = {};
-    //     formData.forEach(function(value, key) {
-    //                 formdata[key] = value;
-    //                 });
-    //     // console.log(formdata);
     entered_city = data.value;
         console.log(entered_city);
 }
