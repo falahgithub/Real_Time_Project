@@ -24,7 +24,7 @@ The Sensor Data Web App is a Python Flask-based web application designed to disp
 To run the web app locally, follow these steps:
 1.	Clone the repository:
    ```sh
-   git clone https://github.com/falahgithub/safetywhat.git 
+   git clone https://github.com/falahgithub/Real_Time_Project.git 
    ```
 
 2.	Navigate to the project directory:
